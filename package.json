@@ -1,0 +1,24 @@
+{
+  "name": "tour",
+  "version": "1.0.0",
+  "description": "Practice website from udemy CSS course",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/main.scss css/style.css",
+    "compile-w": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinHtetO/CSS_beginner.git"
+  },
+  "author": "Min Htet Oo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinHtetO/CSS_beginner/issues"
+  },
+  "homepage": "https://github.com/MinHtetO/CSS_beginner#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "dependencies": {}
+}
